@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kortz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo de la empresa">
+            </div>
+            <div class="nombre-empresa">
+                <h1>Kortz</h1>
+                <p class="slogan">Con estilo a donde vayas</p>
+            </div>
+
+            <div class="menu-toggle" id="menuToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Conocenos.html">Conócenos</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+                <li><a href="catalogo.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="contacto" class="section">
+        <div class="content">
+            <h2>Contacto</h2>
+            <p>¡Estamos aquí para ayudarte! Si tienes alguna pregunta, comentario o sugerencia, no dudes en contactarnos.</p>
+            
+            <!-- Formulario de contacto -->
+            <div class="contact-form">
+                <div class="form-left">
+                    <h3>¿Tienes alguna pregunta?</h3>
+                    <p>Estamos disponibles para responder tus consultas y proporcionarte la información que necesitas. ¡No dudes en contactarnos!</p>
+                </div>
+                <div class="form-right">
+                    <form>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                        
+                        <label for="correo">Correo Electrónico:</label>
+                        <input type="email" id="correo" name="correo" required>
+                        
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                        
+                        <button type="submit" class="contact-button">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+            
+            <!-- Otras opciones de contacto -->
+            <div class="other-contact-options">
+                <div class="contact-option">
+                    <h3>Quejas y Reclamos</h3>
+                    <p>Si tienes alguna queja o reclamo, por favor contáctanos a través de <a href="mailto:kortz.0309@gmail.com">kortz.0309@gmail.com</a></p>
+                </div>
+                <div class="contact-option">
+                    <h3>Encuesta de Satisfacción</h3>
+                    <p>Participa en nuestra encuesta y ayúdanos a mejorar. <a href="https://www.onlineencuesta.com/s/v3ggef9">Haz clic aquí</a> para responder.</p>
+                </div>
+                <div class="contact-option">
+                    <h3>Trabaja con Nosotros</h3>
+                    <p>Si estás interesado en unirte a nuestro equipo, visita nuestra sección de <a href="trabaja.html">Trabaja con Nosotros</a> para ver las oportunidades disponibles.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="content">
+            <p>&copy; 2023 Tu Empresa de Accesorios y Moda. Todos los derechos reservados.</p>
+            <div class="social-links">
+                <a href="#" class="social-icon">Facebook</a>
+                <a href="#" class="social-icon">Instagram</a>
+                <a href="#" class="social-icon">Twitter</a>
+            </div>
+        </div>
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>

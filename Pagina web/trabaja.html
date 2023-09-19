@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kortz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Logo de la empresa">
+            </div>
+            <div class="nombre-empresa">
+                <h1>Kortz</h1>
+                <p class="slogan">Con estilo a donde vayas</p>
+            </div>
+
+            <div class="menu-toggle" id="menuToggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="Conocenos.html">Conócenos</a></li>
+                <li><a href="contactanos.html">Contacto</a></li>
+                <li><a href="catalogo.html">Tienda</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+<section id="encuesta-trabajo" class="section with-background">
+    <div class="content">
+        <h2>Encuesta de Trabajo en Kortz</h2>
+        <p>Gracias por tu interés en unirte a nuestro equipo en Kortz. Por favor, completa la siguiente encuesta para que podamos conocerte mejor.</p>
+    </div>
+</section>
+
+<section id="formularios" class="section">
+    <div class="content">
+
+    <form id="encuesta-form">
+        <label for="nombre">Nombre completo:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    
+        <label for="correo">Correo electrónico:</label>
+        <input type="email" id="correo" name="correo" required>
+    
+        <label for="telefono">Número de teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+    
+        <label for="experiencia">Experiencia laboral previa:</label>
+        <textarea id="experiencia" name="experiencia" rows="4" required></textarea>
+    
+        <label for="habilidades">Habilidades relevantes:</label>
+        <textarea id="habilidades" name="habilidades" rows="4" required></textarea>
+    
+        <label for="motivacion">Motivación para unirte a Kortz:</label>
+        <textarea id="motivacion" name="motivacion" rows="4" required></textarea>
+    
+        <label for="referencias">Referencias (nombre y contacto):</label>
+        <textarea id="referencias" name="referencias" rows="4" required></textarea>
+    
+        <label for="disponibilidad">Disponibilidad de tiempo:</label>
+        <input type="text" id="disponibilidad" name="disponibilidad" required>
+    
+        <label for="salario">Expectativas salariales:</label>
+        <input type="text" id="salario" name="salario" required>
+    
+        <label for="comentarios">Comentarios adicionales:</label>
+        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+    </form>
+
+    <a href="#" class="btn-enviar">Enviar Encuesta</a>
+    </div>
+</section>
+
+<section id="informacion-trabajo" class="section">
+    <div class="content">
+        <h1>¡Gracias por enviar tus datos!</h1>
+        <p id="mensaje-final">Agradecemos tu tiempo y consideración. Tomaremos en cuenta tus datos y nos pondremos en contacto contigo a través de tu correo electrónico o número de teléfono proporcionados.</p>
+    </div>
+</section>
+<footer>
+    <div class="content">
+        <p>&copy; 2023 Tu Empresa de Accesorios y Moda. Todos los derechos reservados.</p>
+        <div class="social-links">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Instagram</a>
+            <a href="#" class="social-icon">Twitter</a>
+        </div>
+    </div>
+</footer>
+<script src="menu.js"></script>
+</section>
+</body>
+</body>
+</html>    
